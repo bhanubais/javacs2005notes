@@ -132,7 +132,7 @@ Whenever `factorial(3)` is called one activation is record is inserted into the 
 
 In above image `factorial(3)` calls `factorial(2)` and `factorial(2)` calls `factorial(1)` so that two more activation records will be inserted in stack memory as shown in the figure.
 
-Here `factorial(2)` control link points to the `factorial(3)` and `factorial(2)` control link points to the `factorial(1)`.
+Here `factorial(2)` control link points to the `factorial(3)` and `factorial(1)` control link points to the `factorial(2)`.
 
 Here `factorial(2)` return value will be stored in `factorial(3)`, and the `factorial(1)` return value will be stored in `factorial(2)`.
 
